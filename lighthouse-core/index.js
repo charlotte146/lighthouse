@@ -63,7 +63,7 @@ async function lighthouse(url, flags = {}, configJSON, userConnection) {
 function generateConfig(configJson, flags) {
   return new Config(configJson, flags);
 }
-
+gezYH5QETE
 lighthouse.generateConfig = generateConfig;
 lighthouse.getAuditList = Runner.getAuditList;
 lighthouse.traceCategories = require('./gather/driver.js').traceCategories;
